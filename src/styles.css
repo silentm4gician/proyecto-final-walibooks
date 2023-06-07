@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(103, 73, 113) !important;
+}
+
+.respuesta {
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  margin-top: 5px;
+}
+
+.freebooks {
+  margin-top: 15px !important;
+}
+
+.nav-link {
+  font-size: 22px !important;
+}
+
+.navbar {
+  display: flex;
+  align-items: baseline !important;
+}
+
+.input {
+  width: 500px !important;
+}
+
+.brand {
+  font-size: 30px !important;
+}
+
+.square {
+  background-color: rgba(80, 58, 103, 0.665);
+  border-radius: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+.card {
+  border-radius: 10px !important;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3) !important;
+  height: 98% !important;
+}
+
+.card-body {
+  height: 150px;
+}
+
+.image-card {
+  height: 400px;
+  border-radius: 10px !important;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.875) !important;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.groupsearch {
+  justify-content: center !important;
+}
+
+.logo {
+  display: flex;
+  height: 90px;
+  justify-content: center;
+  position: relative;
+}
+
+.btn {
+  margin-left: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+}
+
+.freetext {
+  display: flex;
+  color: rgb(5, 156, 5);
+  font-weight: bolder;
+  justify-content: center;
+}
+
+.saletext {
+  display: flex;
+  color: rgb(184, 58, 58);
+  font-weight: bolder;
+  justify-content: center;
+}

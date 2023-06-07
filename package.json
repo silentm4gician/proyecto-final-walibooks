@@ -1,0 +1,38 @@
+{
+  "name": "proyecto-final-walibooks",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start-server": "json-server --watch books.json",
+    "chat": "node Wali.jsx"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.3.6",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.10.0",
+    "react-router-dom": "^6.10.0",
+    "react-speech-recognition": "^3.10.0",
+    "react-spinners": "^0.13.8",
+    "regenerator-runtime": "^0.13.11",
+    "sweetalert2": "^11.4.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "vite": "^3.0.7"
+  }
+}
